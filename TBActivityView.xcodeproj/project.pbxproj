@@ -22,6 +22,7 @@
 		CC5BE4D119528278007EA49F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5BE4B019528278007EA49F /* UIKit.framework */; };
 		CC5BE4D919528278007EA49F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC5BE4D719528278007EA49F /* InfoPlist.strings */; };
 		CC5BE4DB19528278007EA49F /* TBActivityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BE4DA19528278007EA49F /* TBActivityViewTests.m */; };
+		CC5BE4E619528296007EA49F /* TBActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BE4E519528296007EA49F /* TBActivityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		CC5BE4D619528278007EA49F /* TBActivityViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBActivityViewTests-Info.plist"; sourceTree = "<group>"; };
 		CC5BE4D819528278007EA49F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC5BE4DA19528278007EA49F /* TBActivityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBActivityViewTests.m; sourceTree = "<group>"; };
+		CC5BE4E419528296007EA49F /* TBActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBActivityView.h; sourceTree = "<group>"; };
+		CC5BE4E519528296007EA49F /* TBActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBActivityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				CC5BE4C519528278007EA49F /* ViewController.m */,
 				CC5BE4C719528278007EA49F /* Images.xcassets */,
 				CC5BE4B319528278007EA49F /* Supporting Files */,
+				CC5BE4E419528296007EA49F /* TBActivityView.h */,
+				CC5BE4E519528296007EA49F /* TBActivityView.m */,
 			);
 			path = TBActivityView;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC5BE4C619528278007EA49F /* ViewController.m in Sources */,
+				CC5BE4E619528296007EA49F /* TBActivityView.m in Sources */,
 				CC5BE4BD19528278007EA49F /* AppDelegate.m in Sources */,
 				CC5BE4B919528278007EA49F /* main.m in Sources */,
 			);
